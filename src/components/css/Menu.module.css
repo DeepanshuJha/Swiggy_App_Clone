@@ -1,0 +1,140 @@
+.menuHeader{
+    background-color: #141c2c;
+    display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+    gap:20px;
+    color: white;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 50px;
+}
+
+.menuInfo h2, p{
+    margin: 5px 0;
+}
+
+.menuSpecs{    
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.menuSpecsItems:nth-child(2){
+    padding: 0 20px;
+    align-self: center;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+.menuSection{
+    display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+    gap:20px;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.menuCategory{
+    border-right: 1px solid lightgray;
+}
+
+.menuCategory ul{
+    padding-right: 20px;
+    list-style: none;
+    text-align: end;
+}
+
+.activeCategory{
+    color: orange;
+}
+
+.menuListHeader h2{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.menuItemWrapper{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid lightgray ;
+}
+
+.menuItemWrapper:nth-last-child(1){
+    border-bottom: 0;
+}
+
+.ribbon img{
+    width: 15px;
+    height: 15px;
+}
+
+.menuItemAdd{
+    padding: 10px;
+    position: relative;
+}
+
+.menuItemAdd img{
+    border-radius: 10px;
+}
+
+.menuBtns{
+    margin-top: 10px;
+    width:128px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.menuBtns button{
+    color: #5fa154;    
+    background-color: white;
+    font-size: larger;
+    font-weight: bolder;
+    border: 1px solid #5fa154;
+}
+
+.removeItem button{
+    width: 25px;
+}
+
+.menuBtns button:hover{
+    background-color: #5fa154;
+    color: white;
+}
+
+.cartWrapper{
+    width: 80%;
+}
+
+.cartHeader{
+    margin-bottom: 20px;
+
+}
+
+.cartHeader h2{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.totalCostWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartSection button{
+    border: none;
+    width: 100%;
+    background-color:#5fa154;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: bolder;
+    font-size: medium;
+}

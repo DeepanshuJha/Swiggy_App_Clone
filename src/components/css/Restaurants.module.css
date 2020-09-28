@@ -1,0 +1,36 @@
+.searchBar{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.searchBar input{
+    width: 60%;
+    height: 40px;
+    border: 1px solid lightgray;
+    border-radius: 0;
+
+    -webkit-box-shadow: -1px 2px 5px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 2px 5px -3px rgba(0,0,0,0.75);
+    box-shadow: -1px 2px 5px -3px rgba(0,0,0,0.75);
+}
+
+.searchBar label{
+    padding: 10px;
+}
+
+.menuWrapper{
+    display: grid;
+	grid-template-columns: repeat(auto-fit, 320px);
+    gap:20px;
+    row-gap: 100px;
+	justify-content: center;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+

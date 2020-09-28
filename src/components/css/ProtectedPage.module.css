@@ -1,0 +1,51 @@
+.cartMainWrapper{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.cartHeader{
+    margin-bottom: 20px;
+
+}
+
+.cartHeader h2{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.totalCostWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartSection button{
+    border: none;
+    width: 100%;
+    background-color:#5fa154;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+.success img{
+    width: 30px;
+    height: 30px;
+}
+
+.logout{
+    width: 50%;    
+    margin: 50px auto;
+}
+
+.logout button{
+    border: none;
+    width: 100%;
+    background-color:#5fa154;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: bolder;
+    font-size: medium;
+}

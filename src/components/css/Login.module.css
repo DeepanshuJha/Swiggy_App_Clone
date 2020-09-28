@@ -1,0 +1,15 @@
+.loginWrapper{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.loginWrapper button{
+    border: none;
+    width: 100%;
+    background-color:#5fa154;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: bolder;
+    font-size: medium;
+}
